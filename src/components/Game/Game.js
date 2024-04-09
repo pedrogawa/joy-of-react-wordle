@@ -13,6 +13,7 @@ console.info({ answer });
 
 function Game() {
   const [guessInput, setGuessInput] = useState('');
+  console.log(guessInput);
   return (
     <>
       <Input guessInput={guessInput} setGuessInput={setGuessInput}/>
